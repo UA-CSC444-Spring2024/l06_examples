@@ -40,7 +40,7 @@ function setAttributes(selection) {
           .attr("width", 50)
           .attr("height", (d,i) => d*10)
           .style("fill", "orange")
-
+}
 
 //data join with just an update
 rects.data(dataArray2)
